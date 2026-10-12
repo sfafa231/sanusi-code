@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TokoKu — Toko Online</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="logo">🛍 <b>TokoKu</b></div>
+  <nav>
+    <a href="#katalog">Katalog</a>
+    <a href="#tentang">Tentang</a>
+    <button id="btnCart" class="cart-btn">🛒 Keranjang (<span id="cartCount">0</span>)</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Belanja <span>mudah</span>, harga <span>ramah</span></h1>
+  <p>Temukan produk pilihan untuk kebutuhan harianmu — dikirim cepat ke seluruh Indonesia.</p>
+  <button class="cta" onclick="window.location.href='#katalog'">Mulai Belanja →</button>
+</section>
+
+<section class="katalog" id="katalog">
+  <h2>🔥 Katalog Produk</h2>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="tentang" id="tentang">
+  <h2>Tentang TokoKu</h2>
+  <p>TokoKu adalah toko online contoh yang dibuat otomatis oleh <b>Sanusi AI</b> di aplikasi Sanusi Code. File ini asli dibuat oleh AI — kamu bisa mengubahnya sesuka hati dan deploy gratis ke GitHub Pages.</p>
+</section>
+
+<footer>© 2026 TokoKu — dibuat dengan Sanusi Code + Sanusi AI ⚡</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
